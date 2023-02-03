@@ -11,12 +11,12 @@ namespace Test
         static void Main()
         {
             //1
-            /*Console.WriteLine("It's easy to win forgivess for being wrong;");
+            Console.WriteLine("It's easy to win forgivess for being wrong;");
             Console.WriteLine("being right is what gets you into real trouble.");
-            Console.WriteLine("Bjarne Stroustrup");*/
+            Console.WriteLine("Bjarne Stroustrup");
 
             //2
-            /*Console.WriteLine("A: ");
+            Console.WriteLine("A: ");
             int a = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("B: ");
             int b = Convert.ToInt32(Console.ReadLine());
@@ -35,17 +35,17 @@ namespace Test
             max = new[] { a, b, c, d, e }.Max();
             Console.WriteLine("Maximum: " + max);
             int product = a * b * c * d * e;
-            Console.WriteLine("Product: " + product);*/
+            Console.WriteLine("Product: " + product);
 
             //3
-            /*int num = 341256;
+            int num = 341256;
             Console.WriteLine("Number: " + num);
             int revnum = num % 10 * 100000 + (num / 10) % 10 * 10000 + (num / 100) % 10 * 1000 + 
                 (num / 1000) % 10 * 100 + (num / 10000) % 10 * 10 + num / 100000;
-            Console.WriteLine("Reverse number: " + revnum);*/
+            Console.WriteLine("Reverse number: " + revnum);
 
             //4
-            /*Console.WriteLine("Amount of Fibonacci numbers: ");
+            Console.WriteLine("Amount of Fibonacci numbers: ");
             int num = int.Parse(Console.ReadLine());
             Console.WriteLine("\nResult: ");
             int[] fibo = new int[num];
@@ -64,10 +64,10 @@ namespace Test
             {
                 Console.Write(c.ToString() + " ");
             }
-            Console.WriteLine();*/
+            Console.WriteLine();
 
             //5
-            /*Console.WriteLine("Enter A: ");
+            Console.WriteLine("Enter A: ");
             int a = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Enter B: ");
             int b = Convert.ToInt32(Console.ReadLine());
@@ -79,10 +79,10 @@ namespace Test
                 }
                 Console.WriteLine();
             }
-            Console.ReadKey();*/
+            Console.ReadKey();
 
             //6
-            /*Console.WriteLine("Length: ");
+            Console.WriteLine("Length: ");
             int l = int.Parse(Console.ReadLine());
             Console.WriteLine("Symbol: ");
             char s = char.Parse(Console.ReadLine());
@@ -106,7 +106,7 @@ namespace Test
                     }
                 }
                 Console.WriteLine();
-            }*/
+            }
         }
     }
 }
