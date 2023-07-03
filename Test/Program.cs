@@ -7,12 +7,21 @@ namespace Lab
     {
         static void Task1()
         {
+<<<<<<< HEAD
             Console.WriteLine("It's easy to win forgivess for being wrong;");
             Console.WriteLine("being right is what gets you into real trouble.");
             Console.WriteLine("Bjarne Stroustrup");
         }
         static void Task2() 
         {
+=======
+            //1
+            Console.WriteLine("It's easy to win forgivess for being wrong;");
+            Console.WriteLine("being right is what gets you into real trouble.");
+            Console.WriteLine("Bjarne Stroustrup");
+
+            //2
+>>>>>>> dc0705999ac4ea4998c70abf146cbc5016982156
             Console.WriteLine("A: ");
             int a = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("B: ");
@@ -33,17 +42,27 @@ namespace Lab
             Console.WriteLine("Maximum: " + max);
             int product = a * b * c * d * e;
             Console.WriteLine("Product: " + product);
+<<<<<<< HEAD
         }
         static void Task3() 
         {
+=======
+
+            //3
+>>>>>>> dc0705999ac4ea4998c70abf146cbc5016982156
             int num = 341256;
             Console.WriteLine("Number: " + num);
             int revnum = num % 10 * 100000 + (num / 10) % 10 * 10000 + (num / 100) % 10 * 1000 + 
                 (num / 1000) % 10 * 100 + (num / 10000) % 10 * 10 + num / 100000;
             Console.WriteLine("Reverse number: " + revnum);
+<<<<<<< HEAD
         }
         static void Task4() 
         {
+=======
+
+            //4
+>>>>>>> dc0705999ac4ea4998c70abf146cbc5016982156
             Console.WriteLine("Amount of Fibonacci numbers: ");
             int num = int.Parse(Console.ReadLine());
             Console.WriteLine("\nResult: ");
@@ -64,9 +83,14 @@ namespace Lab
                 Console.Write(c.ToString() + " ");
             }
             Console.WriteLine();
+<<<<<<< HEAD
         }
         static void Task5() 
         {
+=======
+
+            //5
+>>>>>>> dc0705999ac4ea4998c70abf146cbc5016982156
             Console.WriteLine("Enter A: ");
             int a = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Enter B: ");
@@ -80,9 +104,14 @@ namespace Lab
                 Console.WriteLine();
             }
             Console.ReadKey();
+<<<<<<< HEAD
         }
         static void Task6() 
         {
+=======
+
+            //6
+>>>>>>> dc0705999ac4ea4998c70abf146cbc5016982156
             Console.WriteLine("Length: ");
             int l = int.Parse(Console.ReadLine());
             Console.WriteLine("Symbol: ");
@@ -108,6 +137,7 @@ namespace Lab
                 }
                 Console.WriteLine();
             }
+<<<<<<< HEAD
         }
         static void Main()
         {
@@ -117,6 +147,8 @@ namespace Lab
             //Task4();
             //Task5();
             //Task6();
+=======
+>>>>>>> dc0705999ac4ea4998c70abf146cbc5016982156
         }
     }
 }
