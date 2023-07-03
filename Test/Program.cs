@@ -1,22 +1,19 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Test
+namespace Lab
 {
     class Program
     {
-        static void Main()
+        static void Task1()
         {
-            //1
-            /*Console.WriteLine("It's easy to win forgivess for being wrong;");
+            Console.WriteLine("It's easy to win forgivess for being wrong;");
             Console.WriteLine("being right is what gets you into real trouble.");
-            Console.WriteLine("Bjarne Stroustrup");*/
-
-            //2
-            /*Console.WriteLine("A: ");
+            Console.WriteLine("Bjarne Stroustrup");
+        }
+        static void Task2() 
+        {
+            Console.WriteLine("A: ");
             int a = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("B: ");
             int b = Convert.ToInt32(Console.ReadLine());
@@ -28,24 +25,26 @@ namespace Test
             int e = Convert.ToInt32(Console.ReadLine());
             int sum = a + b + c + d + e;
             Console.WriteLine("Sum: " + sum);
-            int min = 0;
+            int min;
             min = new[] { a, b, c, d, e }.Min();
             Console.WriteLine("Minimum: " + min);
-            int max = 0;
+            int max;
             max = new[] { a, b, c, d, e }.Max();
             Console.WriteLine("Maximum: " + max);
             int product = a * b * c * d * e;
-            Console.WriteLine("Product: " + product);*/
-
-            //3
-            /*int num = 341256;
+            Console.WriteLine("Product: " + product);
+        }
+        static void Task3() 
+        {
+            int num = 341256;
             Console.WriteLine("Number: " + num);
             int revnum = num % 10 * 100000 + (num / 10) % 10 * 10000 + (num / 100) % 10 * 1000 + 
                 (num / 1000) % 10 * 100 + (num / 10000) % 10 * 10 + num / 100000;
-            Console.WriteLine("Reverse number: " + revnum);*/
-
-            //4
-            /*Console.WriteLine("Amount of Fibonacci numbers: ");
+            Console.WriteLine("Reverse number: " + revnum);
+        }
+        static void Task4() 
+        {
+            Console.WriteLine("Amount of Fibonacci numbers: ");
             int num = int.Parse(Console.ReadLine());
             Console.WriteLine("\nResult: ");
             int[] fibo = new int[num];
@@ -64,10 +63,11 @@ namespace Test
             {
                 Console.Write(c.ToString() + " ");
             }
-            Console.WriteLine();*/
-
-            //5
-            /*Console.WriteLine("Enter A: ");
+            Console.WriteLine();
+        }
+        static void Task5() 
+        {
+            Console.WriteLine("Enter A: ");
             int a = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Enter B: ");
             int b = Convert.ToInt32(Console.ReadLine());
@@ -79,10 +79,11 @@ namespace Test
                 }
                 Console.WriteLine();
             }
-            Console.ReadKey();*/
-
-            //6
-            /*Console.WriteLine("Length: ");
+            Console.ReadKey();
+        }
+        static void Task6() 
+        {
+            Console.WriteLine("Length: ");
             int l = int.Parse(Console.ReadLine());
             Console.WriteLine("Symbol: ");
             char s = char.Parse(Console.ReadLine());
@@ -106,7 +107,16 @@ namespace Test
                     }
                 }
                 Console.WriteLine();
-            }*/
+            }
+        }
+        static void Main()
+        {
+            //Task1();
+            //Task2();
+            //Task3();
+            //Task4();
+            //Task5();
+            //Task6();
         }
     }
 }
